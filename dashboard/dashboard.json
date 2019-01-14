@@ -1,0 +1,1286 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1547471378624,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "97684f6e-9cde-47be-9656-31c56ac5bc00",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "Custom Dashboards/IBM SVC Cluster Details",
+      "namePath": "Custom Dashboards",
+      "rank": 452,
+      "shared": false,
+      "temporary": false,
+      "userId": "dc28bdb0-202a-4747-90fe-842db2ce3987",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "c344122f-99ca-4c23-81ae-a11e2b1140dd",
+            "widgetIdReceiver": "ac8006f2-d899-4de0-bcc4-dc3dbf1cdf2f"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "c344122f-99ca-4c23-81ae-a11e2b1140dd",
+            "widgetIdReceiver": "4f621ea5-aae0-4a98-8d0f-a14a53e05b4b"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "c344122f-99ca-4c23-81ae-a11e2b1140dd",
+            "widgetIdReceiver": "2cdc7c9f-8e8e-4882-a5ba-6a8b26c36a65"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "c344122f-99ca-4c23-81ae-a11e2b1140dd",
+            "widgetIdReceiver": "cb8e5e6a-0f0e-4521-a8ea-f46e760b10ac"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "c344122f-99ca-4c23-81ae-a11e2b1140dd",
+            "widgetIdReceiver": "f791ef55-63f3-4be6-89f5-9d4fcba2406d"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "c344122f-99ca-4c23-81ae-a11e2b1140dd",
+            "widgetIdReceiver": "d3f2e0ee-6f9b-4e14-83fd-968717827770"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "mode": 0,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:0_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "IBM SVC Clusters"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 3,
+               "x": 1,
+               "y": 1
+            },
+            "height": 267,
+            "id": "c344122f-99ca-4c23-81ae-a11e2b1140dd",
+            "states": [{
+               "key": "permResGrid_widget_97684f6e-9cde-47be-9656-31c56ac5bc00_c344122f-99ca-4c23-81ae-a11e2b1140dd",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "IBM SVC Clusters",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartHeight": 115,
+               "metricLabel": "",
+               "metricName": "",
+               "metricType": {"metricType": "health"},
+               "metricUnit": {
+                  "metricUnitId": null,
+                  "metricUnitName": ""
+               },
+               "mode": "self",
+               "paginationNumber": 15,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": false},
+               "showMetricLabel": {"showMetricLabel": false},
+               "showResourceName": {"showResourceName": true},
+               "sortBy": "metricValue",
+               "sortByDir": {"orderByDir": "asc"},
+               "tagFilter": null,
+               "title": "Health Chart (for selected Cluster)"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 3,
+               "x": 4,
+               "y": 1
+            },
+            "height": 267,
+            "id": "ac8006f2-d899-4de0-bcc4-dc3dbf1cdf2f",
+            "states": [{
+               "key": "permDateRange_HealthChart_widget_97684f6e-9cde-47be-9656-31c56ac5bc00_ac8006f2-d899-4de0-bcc4-dc3dbf1cdf2f",
+               "value": "s%3A%7B%22dateRange%22%3A%22last6Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+            }],
+            "title": "Health Chart (for selected Cluster)",
+            "type": "HealthChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "alertAction": [],
+               "alertImpact": [],
+               "criticalityLevel": [],
+               "mode": "resource",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "state": [],
+               "status": [],
+               "tagFilter": null,
+               "title": "Alert List (for selected Cluster)",
+               "type": []
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 3,
+               "x": 7,
+               "y": 1
+            },
+            "height": 267,
+            "id": "4f621ea5-aae0-4a98-8d0f-a14a53e05b4b",
+            "states": [
+               {
+                  "key": "permViewMode_widget_97684f6e-9cde-47be-9656-31c56ac5bc00_4f621ea5-aae0-4a98-8d0f-a14a53e05b4b",
+                  "value": "s%3Atime"
+               },
+               {
+                  "key": "permAlertGrid_perm_widget_97684f6e-9cde-47be-9656-31c56ac5bc00_4f621ea5-aae0-4a98-8d0f-a14a53e05b4b",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ewidth%25253Dn%2525253A353%255Eo%25253Aid%25253Ds%2525253Ah4%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah11%255Eo%25253Aid%25253Ds%2525253Ah12%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AstartTimeUtc%2525255Edirection%2525253Ds%252525253ADESC"
+               },
+               {
+                  "key": "permDateFilter_widget_97684f6e-9cde-47be-9656-31c56ac5bc00_4f621ea5-aae0-4a98-8d0f-a14a53e05b4b",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               }
+            ],
+            "title": "Alert List (for selected Cluster)",
+            "type": "AlertList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 7,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5330-1",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|compression_compressed_capacity",
+                        "metricName": "Capacity|Compression Compressed Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5330-2",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|compression_uncompressed_capacity",
+                        "metricName": "Capacity|Compression Uncompressed Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5330-3",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|compression_virtual_capacity",
+                        "metricName": "Capacity|Compression Virtual Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5330-4",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|space_allocated_to_virtual_disks",
+                        "metricName": "Capacity|Space Allocated To Virtual Disks",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5330-5",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|space_in_pool_groups",
+                        "metricName": "Capacity|Space In Pool Groups",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5330-6",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|tier_0_flash_capacity",
+                        "metricName": "Capacity|Tier 0 Flash Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5330-7",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|tier_0_flash_compressed_data_used",
+                        "metricName": "Capacity|Tier 0 Flash Compressed Data Used",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5330-8",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|tier_0_flash_free_space",
+                        "metricName": "Capacity|Tier 0 Flash Free Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5330-9",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|tier_1_flash_capacity",
+                        "metricName": "Capacity|Tier 1 Flash Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5330-10",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|tier_1_flash_compressed_data_used",
+                        "metricName": "Capacity|Tier 1 Flash Compressed Data Used",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5330-11",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|tier_1_flash_free_space",
+                        "metricName": "Capacity|Tier 1 Flash Free Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5330-12",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|tier_enterprise_compressed_data_used",
+                        "metricName": "Capacity|Tier Enterprise Compressed Data Used",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5330-13",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|tier_enterprise_flash_capacity",
+                        "metricName": "Capacity|Tier Enterprise Flash Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5330-14",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|tier_enterprise_flash_free_space",
+                        "metricName": "Capacity|Tier Enterprise Flash Free Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5330-15",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|tier_nearline_compressed_data_used",
+                        "metricName": "Capacity|Tier Nearline Compressed Data Used",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5330-16",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|tier_nearline_flash_capacity",
+                        "metricName": "Capacity|Tier Nearline Flash Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5330-17",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|tier_nearline_flash_free_space",
+                        "metricName": "Capacity|Tier Nearline Flash Free Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5330-18",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_allocated_extent_capacity",
+                        "metricName": "Capacity|Total Allocated Extent Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5330-19",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_free_space",
+                        "metricName": "Capacity|Total Free Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5330-20",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_overallocation",
+                        "metricName": "Capacity|Total Overallocation",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5330-21",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_pool_capacity",
+                        "metricName": "Capacity|Total Pool Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5330-22",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_snapshot_capacity",
+                        "metricName": "Capacity|Total Snapshot Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5330-23",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_tier_capacity",
+                        "metricName": "Capacity|Total Tier Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5330-24",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_tier_capacity_usage",
+                        "metricName": "Capacity|Total Tier Capacity Usage",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5330-25",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_tier_free_space",
+                        "metricName": "Capacity|Total Tier Free Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5330-26",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_tier_used_space",
+                        "metricName": "Capacity|Total Tier Used Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5330-27",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_used_capacity",
+                        "metricName": "Capacity|Total Used Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5330-28",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_virtual_disk_capacity",
+                        "metricName": "Capacity|Total Virtual Disk Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Capacity Scoreboard (for selected Cluster)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 12,
+               "x": 1,
+               "y": 16
+            },
+            "height": 267,
+            "id": "2cdc7c9f-8e8e-4882-a5ba-6a8b26c36a65",
+            "title": "Capacity Scoreboard (for selected Cluster)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 2,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6371-1",
+                        "isStringMetric": false,
+                        "metricKey": "CPU|compression_allocated_cpu",
+                        "metricName": "CPU|Compression Allocated CPU",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6371-2",
+                        "isStringMetric": false,
+                        "metricKey": "CPU|system_allocated_cpu",
+                        "metricName": "CPU|System Allocated CPU",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6371-3",
+                        "isStringMetric": false,
+                        "metricKey": "Memory|total_cache_usage",
+                        "metricName": "Memory|Total Cache Usage",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6371-4",
+                        "isStringMetric": false,
+                        "metricKey": "Memory|write_cache_usage",
+                        "metricName": "Memory|Write Cache Usage",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last24Hour",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "CPU and Memory Scoreboard (for selected Cluster)",
+               "valueSize": 24,
+               "visualTheme": 4
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 3,
+               "x": 10,
+               "y": 1
+            },
+            "height": 267,
+            "id": "cb8e5e6a-0f0e-4521-a8ea-f46e760b10ac",
+            "title": "CPU and Memory Scoreboard (for selected Cluster)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 9,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6886-1",
+                        "isStringMetric": true,
+                        "metricKey": "Details|email_state",
+                        "metricName": "Details|Email State",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6886-2",
+                        "isStringMetric": false,
+                        "metricKey": "Details|global_mirror_link_tolerance",
+                        "metricName": "Details|Global Mirror Link Tolerance",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6886-3",
+                        "isStringMetric": true,
+                        "metricKey": "Details|layer",
+                        "metricName": "Details|Layer",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6886-4",
+                        "isStringMetric": true,
+                        "metricKey": "Details|location",
+                        "metricName": "Details|Location",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6886-5",
+                        "isStringMetric": false,
+                        "metricKey": "Details|partnership_exclusion_threshold",
+                        "metricName": "Details|Partnership Exclusion Threshold",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6886-6",
+                        "isStringMetric": false,
+                        "metricKey": "Details|remote_copy_buffer_size",
+                        "metricName": "Details|Remote Copy Buffer Size",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6886-7",
+                        "isStringMetric": false,
+                        "metricKey": "Details|statistics_frequency",
+                        "metricName": "Details|Statistics Frequency",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6886-8",
+                        "isStringMetric": true,
+                        "metricKey": "Details|topology",
+                        "metricName": "Details|Topology",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6886-9",
+                        "isStringMetric": false,
+                        "metricKey": "Details|virtual_disk_protection_time",
+                        "metricName": "Details|Virtual Disk Protection Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Details Scoreboard (for selected Cluster)",
+               "valueSize": 24,
+               "visualTheme": 4
+            },
+            "gridsterCoords": {
+               "h": 3,
+               "w": 12,
+               "x": 1,
+               "y": 6
+            },
+            "height": 153,
+            "id": "f791ef55-63f3-4be6-89f5-9d4fcba2406d",
+            "title": "Details Scoreboard (for selected Cluster)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 7,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-1",
+                        "isStringMetric": false,
+                        "metricKey": "Network|cloud_download_data_transferred",
+                        "metricName": "Network|Cloud Download Data Transferred",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-2",
+                        "isStringMetric": false,
+                        "metricKey": "Network|cloud_download_delay",
+                        "metricName": "Network|Cloud Download Delay",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-3",
+                        "isStringMetric": false,
+                        "metricKey": "Network|cloud_upload_data_transferred",
+                        "metricName": "Network|Cloud Upload Data Transferred",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-4",
+                        "isStringMetric": false,
+                        "metricKey": "Network|cloud_upload_delay",
+                        "metricName": "Network|Cloud Upload Delay",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-5",
+                        "isStringMetric": false,
+                        "metricKey": "Network|fibre_channel_data_transferred",
+                        "metricName": "Network|Fibre Channel Data Transferred",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-6",
+                        "isStringMetric": false,
+                        "metricKey": "Network|fibre_channel_io_operations",
+                        "metricName": "Network|Fibre Channel IO Operations",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-7",
+                        "isStringMetric": false,
+                        "metricKey": "Network|global_mirror_inter_cluster_delay_simulation",
+                        "metricName": "Network|Global Mirror Inter Cluster Delay Simulation",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-8",
+                        "isStringMetric": false,
+                        "metricKey": "Network|global_mirror_intra_cluster_delay_simulation",
+                        "metricName": "Network|Global Mirror Intra Cluster Delay Simulation",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-9",
+                        "isStringMetric": false,
+                        "metricKey": "Network|global_mirror_maximum_host_delay",
+                        "metricName": "Network|Global Mirror Maximum Host Delay",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-10",
+                        "isStringMetric": false,
+                        "metricKey": "Network|ip_partnership_io_operations",
+                        "metricName": "Network|IP Partnership IO Operations",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-11",
+                        "isStringMetric": false,
+                        "metricKey": "Network|ip_replication_data_transferred",
+                        "metricName": "Network|IP Replication Data Transferred",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-12",
+                        "isStringMetric": false,
+                        "metricKey": "Network|ip_replication_link_compressed_data_transferred",
+                        "metricName": "Network|IP Replication Link Compressed Data Transferred",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-13",
+                        "isStringMetric": false,
+                        "metricKey": "Network|iscsi_data_transferred",
+                        "metricName": "Network|ISCSI Data Transferred",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-14",
+                        "isStringMetric": false,
+                        "metricKey": "Network|iscsi_io_operations",
+                        "metricName": "Network|ISCSI IO Operations",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-15",
+                        "isStringMetric": false,
+                        "metricKey": "Network|maximum_replication_delay",
+                        "metricName": "Network|Maximum Replication Delay",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-16",
+                        "isStringMetric": false,
+                        "metricKey": "Network|read_and_write_data_transferred_to_drives",
+                        "metricName": "Network|Read and Write Data Transferred to Drives",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-17",
+                        "isStringMetric": false,
+                        "metricKey": "Network|read_and_write_data_transferred_to_management_disks",
+                        "metricName": "Network|Read and Write Data Transferred to Management Disks",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-18",
+                        "isStringMetric": false,
+                        "metricKey": "Network|read_and_write_data_transferred_to_volumes",
+                        "metricName": "Network|Read and Write Data Transferred to Volumes",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-19",
+                        "isStringMetric": false,
+                        "metricKey": "Network|read_and_write_delay_to_drives",
+                        "metricName": "Network|Read and Write Delay to Drives",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-20",
+                        "isStringMetric": false,
+                        "metricKey": "Network|read_and_write_delay_to_management_disks",
+                        "metricName": "Network|Read and Write Delay to Management Disks",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-21",
+                        "isStringMetric": false,
+                        "metricKey": "Network|read_and_write_delay_to_volumes",
+                        "metricName": "Network|Read and Write Delay to Volumes",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-22",
+                        "isStringMetric": false,
+                        "metricKey": "Network|read_and_write_io_operations_to_drives",
+                        "metricName": "Network|Read and Write IO Operations to Drives",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-23",
+                        "isStringMetric": false,
+                        "metricKey": "Network|read_and_write_io_operations_to_management_disks",
+                        "metricName": "Network|Read and Write IO Operations to Management Disks",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-24",
+                        "isStringMetric": false,
+                        "metricKey": "Network|read_and_write_io_operations_to_volumes",
+                        "metricName": "Network|Read and Write IO Operations to Volumes",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-25",
+                        "isStringMetric": false,
+                        "metricKey": "Network|read_data_transferred_to_drives",
+                        "metricName": "Network|Read Data Transferred to Drives",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-26",
+                        "isStringMetric": false,
+                        "metricKey": "Network|read_data_transferred_to_management_disks",
+                        "metricName": "Network|Read Data Transferred to Management Disks",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-27",
+                        "isStringMetric": false,
+                        "metricKey": "Network|read_data_transferred_to_volumes",
+                        "metricName": "Network|Read Data Transferred to Volumes",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-28",
+                        "isStringMetric": false,
+                        "metricKey": "Network|read_delay_to_drives",
+                        "metricName": "Network|Read Delay to Drives",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-29",
+                        "isStringMetric": false,
+                        "metricKey": "Network|read_delay_to_management_disks",
+                        "metricName": "Network|Read Delay to Management Disks",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-30",
+                        "isStringMetric": false,
+                        "metricKey": "Network|read_delay_to_volumes",
+                        "metricName": "Network|Read Delay to Volumes",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-31",
+                        "isStringMetric": false,
+                        "metricKey": "Network|read_io_operations_to_drives",
+                        "metricName": "Network|Read IO Operations to Drives",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-32",
+                        "isStringMetric": false,
+                        "metricKey": "Network|read_io_operations_to_management_disks",
+                        "metricName": "Network|Read IO Operations to Management Disks",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-33",
+                        "isStringMetric": false,
+                        "metricKey": "Network|read_io_operations_to_volumes",
+                        "metricName": "Network|Read IO Operations to Volumes",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-34",
+                        "isStringMetric": false,
+                        "metricKey": "Network|sas_data_transferred",
+                        "metricName": "Network|SAS Data Transferred",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-35",
+                        "isStringMetric": false,
+                        "metricKey": "Network|sas_io_operations",
+                        "metricName": "Network|SAS IO Operations",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-36",
+                        "isStringMetric": false,
+                        "metricKey": "Network|write_data_transferred_to_drives",
+                        "metricName": "Network|Write Data Transferred to Drives",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-37",
+                        "isStringMetric": false,
+                        "metricKey": "Network|write_data_transferred_to_management_disks",
+                        "metricName": "Network|Write Data Transferred to Management Disks",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-38",
+                        "isStringMetric": false,
+                        "metricKey": "Network|write_data_transferred_to_volumes",
+                        "metricName": "Network|Write Data Transferred to Volumes",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-39",
+                        "isStringMetric": false,
+                        "metricKey": "Network|write_delay_to_drives",
+                        "metricName": "Network|Write Delay to Drives",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-40",
+                        "isStringMetric": false,
+                        "metricKey": "Network|write_delay_to_management_disks",
+                        "metricName": "Network|Write Delay to Management Disks",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-41",
+                        "isStringMetric": false,
+                        "metricKey": "Network|write_delay_to_volumes",
+                        "metricName": "Network|Write Delay to Volumes",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-42",
+                        "isStringMetric": false,
+                        "metricKey": "Network|write_io_operations_to_drives",
+                        "metricName": "Network|Write IO Operations to Drives",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-43",
+                        "isStringMetric": false,
+                        "metricKey": "Network|write_io_operations_to_management_disks",
+                        "metricName": "Network|Write IO Operations to Management Disks",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4012-44",
+                        "isStringMetric": false,
+                        "metricKey": "Network|write_io_operations_to_volumes",
+                        "metricName": "Network|Write IO Operations to Volumes",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Network Scoreboard (for selected Cluster)",
+               "valueSize": 24,
+               "visualTheme": 5
+            },
+            "gridsterCoords": {
+               "h": 7,
+               "w": 12,
+               "x": 1,
+               "y": 9
+            },
+            "height": 381,
+            "id": "d3f2e0ee-6f9b-4e14-83fd-968717827770",
+            "title": "Network Scoreboard (for selected Cluster)",
+            "type": "Scoreboard"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [{
+      "adapterKindKey": "IBMSVC_ADAPTER",
+      "internalId": "resourceKind:id:0_::_",
+      "resourceKindKey": "ibm_svc_bm_exuno_ibmsvc_cluster"
+   }]},
+   "uuid": "5e096955-9fb5-42b7-944a-1026f6a1f677"
+}
